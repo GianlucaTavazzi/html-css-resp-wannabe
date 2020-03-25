@@ -12,12 +12,12 @@
 }
 
 @media screen and (max-width: 480px){
-    .row h1{
-        width: 46%;
+    .row{
+        width: 100%;
     }
     #lezioni .row > .left, #lezioni .row > .right{
         float: none;
-        width: 46%;
+        width:100%;
     }
 }
 
@@ -49,7 +49,7 @@
     #steps .row > .central,
     #steps .row > .right{
       float: none;
-      width: 46%;
+      width: 100%;
       padding-bottom: 25px;
     }
 }
@@ -76,7 +76,7 @@
     #why .row > .first,
     #why .row > .second,
     #why .row > .third {
-      width: 46%;
+      width: 100%;
       margin-top: 80px;
     }
 }
